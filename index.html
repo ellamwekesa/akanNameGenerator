@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Akan Name Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="h11">Get To Know your Akan Name</h1>
+        <p>
+            Get your Akan name based on your <strong>birthdate</strong> and<strong> gender</strong> using this simple Akan name generator.
+        </p>
+    </header>
+
+    <section>
+        <form id="Akan">
+            <label for="dob">Birthdate:</label><br>
+            <input type="date" id="dob" name="dob">
+            <br><br>
+
+            <label>Gender:</label><br>
+            <input type="checkbox" name="gender" value="male">Male</label>
+
+            <input type="checkbox" name="gender" value="female">Female</label>
+            <br><br>
+
+            <input type="checkbox"name="gender" value="other">other</label>
+            <br><br>
+
+        </form>
+          <section id="result">
+        <h2>Akan Name</h2>
+        <p id="akanName"></p>
+    </section>
+    <section>
+        <form id="Generate">
+            <label for="akanName">Your Akan Name:</label><br>
+            <input type="text" id="akanName" name="akanName" readonly style="width: 200px;"><br><br>
+            <button type="submit"> Submit</button>
+        </form>
+        
+       
+    </section>
+ <script src="script.js"></script>
+   
+<footer>
+        <p>&copy; 2026 Akan Name generator. All rights reserved.</p>
+    </footer>
+</body>
+</html>
